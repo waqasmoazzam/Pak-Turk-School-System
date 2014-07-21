@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="School_SystemDataSet1" targetNamespace="http://tempuri.org/School_SystemDataSet1.xsd" xmlns:mstns="http://tempuri.org/School_SystemDataSet1.xsd" xmlns="http://tempuri.org/School_SystemDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="School_SystemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="School_SystemConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PakTurk_school_system.Properties.Settings.GlobalReference.Default.School_SystemConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CityTableAdapter" GeneratorDataComponentClassName="CityTableAdapter" Name="City" UserDataComponentName="CityTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="School_SystemConnectionString (Settings)" DbObjectName="School_System.dbo.City" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CityName FROM dbo.City</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CityName" DataSetColumn="CityName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RegistrationTableAdapter" GeneratorDataComponentClassName="RegistrationTableAdapter" Name="Registration" UserDataComponentName="RegistrationTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="School_SystemConnectionString (Settings)" DbObjectName="School_System.dbo.Registration" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT RegistraionDate, RegisteredInClass FROM dbo.Registration</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RegistraionDate" DataSetColumn="RegistraionDate" />
+              <Mapping SourceColumn="RegisteredInClass" DataSetColumn="RegisteredInClass" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="UserzTableAdapter" GeneratorDataComponentClassName="UserzTableAdapter" Name="Userz" UserDataComponentName="UserzTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="School_SystemConnectionString (Settings)" DbObjectName="School_System.dbo.Userz" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FName, LName, PhoneNo, MobNo, EmailAdress, Address, Country_Id FROM dbo.Userz</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FName" DataSetColumn="FName" />
+              <Mapping SourceColumn="LName" DataSetColumn="LName" />
+              <Mapping SourceColumn="PhoneNo" DataSetColumn="PhoneNo" />
+              <Mapping SourceColumn="MobNo" DataSetColumn="MobNo" />
+              <Mapping SourceColumn="EmailAdress" DataSetColumn="EmailAdress" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="Country_Id" DataSetColumn="Country_Id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="School_SystemConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="searchStudent" MethodsParameterType="CLR" Modifier="Public" Name="searchStudent" QueryType="Scalar" ScalarCallRetval="System.DateTime, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="searchStudent">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>SELECT     Registration.RegistraionDate, Registration.RegisteredInClass, Userz.FName AS [Frist Name], Userz.LName AS [Last Name], 
+                      Userz.PhoneNo AS [Ph No], Userz.MobNo AS [Mobile No], Userz.EmailAdress AS Email, Userz.Address, Country.CountryName AS Country, 
+                      City.CityName AS City
+FROM         Registration INNER JOIN
+                      Userz ON Registration.RegistrationId = Userz.RegistrationId INNER JOIN
+                      Country ON Userz.Country_Id = Country.CountryId INNER JOIN
+                      City ON Country.CountryId = City.CountryId
+ORDER BY [Frist Name], [Last Name]</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="School_SystemDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="School_SystemDataSet1" msprop:Generator_DataSetName="School_SystemDataSet1" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="City" msprop:Generator_UserTableName="City" msprop:Generator_RowDeletedName="CityRowDeleted" msprop:Generator_RowChangedName="CityRowChanged" msprop:Generator_RowClassName="CityRow" msprop:Generator_RowChangingName="CityRowChanging" msprop:Generator_RowEvArgName="CityRowChangeEvent" msprop:Generator_RowEvHandlerName="CityRowChangeEventHandler" msprop:Generator_TableClassName="CityDataTable" msprop:Generator_TableVarName="tableCity" msprop:Generator_RowDeletingName="CityRowDeleting" msprop:Generator_TablePropName="City">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CityName" msprop:Generator_UserColumnName="CityName" msprop:Generator_ColumnVarNameInTable="columnCityName" msprop:Generator_ColumnPropNameInRow="CityName" msprop:Generator_ColumnPropNameInTable="CityNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Registration" msprop:Generator_UserTableName="Registration" msprop:Generator_RowDeletedName="RegistrationRowDeleted" msprop:Generator_RowChangedName="RegistrationRowChanged" msprop:Generator_RowClassName="RegistrationRow" msprop:Generator_RowChangingName="RegistrationRowChanging" msprop:Generator_RowEvArgName="RegistrationRowChangeEvent" msprop:Generator_RowEvHandlerName="RegistrationRowChangeEventHandler" msprop:Generator_TableClassName="RegistrationDataTable" msprop:Generator_TableVarName="tableRegistration" msprop:Generator_RowDeletingName="RegistrationRowDeleting" msprop:Generator_TablePropName="Registration">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RegistraionDate" msprop:Generator_UserColumnName="RegistraionDate" msprop:Generator_ColumnVarNameInTable="columnRegistraionDate" msprop:Generator_ColumnPropNameInRow="RegistraionDate" msprop:Generator_ColumnPropNameInTable="RegistraionDateColumn" type="xs:dateTime" />
+              <xs:element name="RegisteredInClass" msprop:Generator_UserColumnName="RegisteredInClass" msprop:Generator_ColumnVarNameInTable="columnRegisteredInClass" msprop:Generator_ColumnPropNameInRow="RegisteredInClass" msprop:Generator_ColumnPropNameInTable="RegisteredInClassColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Userz" msprop:Generator_UserTableName="Userz" msprop:Generator_RowDeletedName="UserzRowDeleted" msprop:Generator_RowChangedName="UserzRowChanged" msprop:Generator_RowClassName="UserzRow" msprop:Generator_RowChangingName="UserzRowChanging" msprop:Generator_RowEvArgName="UserzRowChangeEvent" msprop:Generator_RowEvHandlerName="UserzRowChangeEventHandler" msprop:Generator_TableClassName="UserzDataTable" msprop:Generator_TableVarName="tableUserz" msprop:Generator_RowDeletingName="UserzRowDeleting" msprop:Generator_TablePropName="Userz">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FName" msprop:Generator_UserColumnName="FName" msprop:Generator_ColumnVarNameInTable="columnFName" msprop:Generator_ColumnPropNameInRow="FName" msprop:Generator_ColumnPropNameInTable="FNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LName" msprop:Generator_UserColumnName="LName" msprop:Generator_ColumnVarNameInTable="columnLName" msprop:Generator_ColumnPropNameInRow="LName" msprop:Generator_ColumnPropNameInTable="LNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PhoneNo" msprop:Generator_UserColumnName="PhoneNo" msprop:Generator_ColumnVarNameInTable="columnPhoneNo" msprop:Generator_ColumnPropNameInRow="PhoneNo" msprop:Generator_ColumnPropNameInTable="PhoneNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MobNo" msprop:Generator_UserColumnName="MobNo" msprop:Generator_ColumnVarNameInTable="columnMobNo" msprop:Generator_ColumnPropNameInRow="MobNo" msprop:Generator_ColumnPropNameInTable="MobNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmailAdress" msprop:Generator_UserColumnName="EmailAdress" msprop:Generator_ColumnVarNameInTable="columnEmailAdress" msprop:Generator_ColumnPropNameInRow="EmailAdress" msprop:Generator_ColumnPropNameInTable="EmailAdressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Country_Id" msprop:Generator_UserColumnName="Country_Id" msprop:Generator_ColumnVarNameInTable="columnCountry_Id" msprop:Generator_ColumnPropNameInRow="Country_Id" msprop:Generator_ColumnPropNameInTable="Country_IdColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

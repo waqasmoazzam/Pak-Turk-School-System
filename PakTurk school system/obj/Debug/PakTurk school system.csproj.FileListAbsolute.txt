@@ -1,0 +1,244 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksDetail.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_Test.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksDetail.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+D:\Waqas Assignments\7th Semester\Final Year Project\Project 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admin.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_Test.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksDetail.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+C:\Documents and Settings\Administrator\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Add_New_Courses.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admin.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_Test.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_User.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Edit_User.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Class.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Courses.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Student.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Teacher.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksDetail.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+C:\Documents and Settings\WackyB\Desktop\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Add_New_Courses.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admin.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_Test.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Edit_User.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Class.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Courses.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Student.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Teacher.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksDetail.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe.config
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\bin\Debug\App_Code.dll
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ConfirmPrint.resources
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_User_Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe.config
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\bin\Debug\App_Code.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Add_New_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admin.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ConfirmPrint.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_Test.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_User_Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Edit_User.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Class.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Student.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Teacher.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksDetail.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Update_Attendance.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Add_New_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admin.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ConfirmPrint.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_Test.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_User_Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Edit_User.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Class.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Student.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Teacher.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Update_Attendance.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksTeacher.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe.config
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\bin\Debug\App_Code.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe.config
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\App_Code.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Add_New_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admin.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ConfirmPrint.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_User_Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Edit_User.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Class.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Student.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Teacher.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Update_Attendance.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksTeacher.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe.config
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Add_New_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admin.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_1_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Admission_2_.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Change_Password.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Check_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ConfirmPrint.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Create_User_Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Edit_User.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Enter_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Login.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Class.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Courses.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Student.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Manage_Teacher.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Mark_Attendence.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Teachers.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Update_Attendance.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.ViewMarksTeacher.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Properties.Resources.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Registration.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.Student_View_Information.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk_school_system.View_Marks.resources
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.csproj.GenerateResource.Cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakTurk school system\bin\Debug\App_Code.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\PakTurk School Management System\PakTurk school system\PakTurk school system\bin\Debug\PakTurk school system.exe.config
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\PakTurk School Management System\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.exe
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\PakTurk School Management System\PakTurk school system\PakTurk school system\obj\Debug\PakTurk school system.pdb

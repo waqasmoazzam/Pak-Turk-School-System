@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="School_SystemDataSet7" targetNamespace="http://tempuri.org/School_SystemDataSet7.xsd" xmlns:mstns="http://tempuri.org/School_SystemDataSet7.xsd" xmlns="http://tempuri.org/School_SystemDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="School_SystemConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="School_SystemConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PakTurk_school_system.Properties.Settings.GlobalReference.Default.School_SystemConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ClassRoomsTableAdapter" GeneratorDataComponentClassName="ClassRoomsTableAdapter" Name="ClassRooms" UserDataComponentName="ClassRoomsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="School_SystemConnectionString1 (Settings)" DbObjectName="School_System.dbo.ClassRooms" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ClassRoomNumber FROM dbo.ClassRooms</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ClassRoomNumber" DataSetColumn="ClassRoomNumber" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="School_SystemDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="School_SystemDataSet7" msprop:Generator_UserDSName="School_SystemDataSet7" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ClassRooms" msprop:Generator_UserTableName="ClassRooms" msprop:Generator_RowDeletedName="ClassRoomsRowDeleted" msprop:Generator_TableClassName="ClassRoomsDataTable" msprop:Generator_RowChangedName="ClassRoomsRowChanged" msprop:Generator_RowClassName="ClassRoomsRow" msprop:Generator_RowChangingName="ClassRoomsRowChanging" msprop:Generator_RowEvArgName="ClassRoomsRowChangeEvent" msprop:Generator_RowEvHandlerName="ClassRoomsRowChangeEventHandler" msprop:Generator_TablePropName="ClassRooms" msprop:Generator_TableVarName="tableClassRooms" msprop:Generator_RowDeletingName="ClassRoomsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClassRoomNumber" msprop:Generator_UserColumnName="ClassRoomNumber" msprop:Generator_ColumnPropNameInRow="ClassRoomNumber" msprop:Generator_ColumnVarNameInTable="columnClassRoomNumber" msprop:Generator_ColumnPropNameInTable="ClassRoomNumberColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

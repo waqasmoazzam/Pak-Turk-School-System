@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="School_SystemDataSet4" targetNamespace="http://tempuri.org/School_SystemDataSet4.xsd" xmlns:mstns="http://tempuri.org/School_SystemDataSet4.xsd" xmlns="http://tempuri.org/School_SystemDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="School_SystemConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="School_SystemConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PakTurk_school_system.Properties.Settings.GlobalReference.Default.School_SystemConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="UserzTableAdapter" GeneratorDataComponentClassName="UserzTableAdapter" Name="Userz" UserDataComponentName="UserzTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="School_SystemConnectionString1 (Settings)" DbObjectName="School_System.dbo.Userz" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FName, User_Type FROM dbo.Userz</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FName" DataSetColumn="FName" />
+              <Mapping SourceColumn="User_Type" DataSetColumn="User_Type" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="School_SystemConnectionString1 (Settings)" DbObjectName="School_System.dbo.Userz" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FName, User_Type FROM dbo.Userz where User_Type='teacher'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="School_SystemConnectionString1 (Settings)" DbObjectName="School_System.dbo.Userz" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy1" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="FillBy1">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT     FName, User_Type
+FROM         Userz
+WHERE     (User_Type = 'teacher')</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="School_SystemDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="School_SystemDataSet4" msprop:Generator_DataSetName="School_SystemDataSet4" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Userz" msprop:Generator_UserTableName="Userz" msprop:Generator_RowDeletedName="UserzRowDeleted" msprop:Generator_RowChangedName="UserzRowChanged" msprop:Generator_RowClassName="UserzRow" msprop:Generator_RowChangingName="UserzRowChanging" msprop:Generator_RowEvArgName="UserzRowChangeEvent" msprop:Generator_RowEvHandlerName="UserzRowChangeEventHandler" msprop:Generator_TableClassName="UserzDataTable" msprop:Generator_TableVarName="tableUserz" msprop:Generator_RowDeletingName="UserzRowDeleting" msprop:Generator_TablePropName="Userz">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FName" msprop:Generator_UserColumnName="FName" msprop:Generator_ColumnVarNameInTable="columnFName" msprop:Generator_ColumnPropNameInRow="FName" msprop:Generator_ColumnPropNameInTable="FNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="User_Type" msprop:Generator_UserColumnName="User_Type" msprop:Generator_ColumnVarNameInTable="columnUser_Type" msprop:Generator_ColumnPropNameInRow="User_Type" msprop:Generator_ColumnPropNameInTable="User_TypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

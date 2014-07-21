@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMarks4StudentsBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rollNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMarks4StudentsBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMarks4StudentsBLLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMarks4TeachersBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subjectName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="res">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMarks4TeachersBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMarks4TeachersBLLResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="res">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="enterStudentMarksBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subjectName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="res">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="enterStudentMarksBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="enterStudentMarksBLLResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="res">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveStudentMarksBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subjectName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="res">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveStudentMarksBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveStudentMarksBLLResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="res">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMarks4StudentsBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:getMarks4StudentsBLL" />
+  </wsdl:message>
+  <wsdl:message name="getMarks4StudentsBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:getMarks4StudentsBLLResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMarks4TeachersBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:getMarks4TeachersBLL" />
+  </wsdl:message>
+  <wsdl:message name="getMarks4TeachersBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:getMarks4TeachersBLLResponse" />
+  </wsdl:message>
+  <wsdl:message name="enterStudentMarksBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:enterStudentMarksBLL" />
+  </wsdl:message>
+  <wsdl:message name="enterStudentMarksBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:enterStudentMarksBLLResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveStudentMarksBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveStudentMarksBLL" />
+  </wsdl:message>
+  <wsdl:message name="SaveStudentMarksBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveStudentMarksBLLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ViewMarksWebServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMarks4StudentsBLL">
+      <wsdl:input message="tns:getMarks4StudentsBLLSoapIn" />
+      <wsdl:output message="tns:getMarks4StudentsBLLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMarks4TeachersBLL">
+      <wsdl:input message="tns:getMarks4TeachersBLLSoapIn" />
+      <wsdl:output message="tns:getMarks4TeachersBLLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="enterStudentMarksBLL">
+      <wsdl:input message="tns:enterStudentMarksBLLSoapIn" />
+      <wsdl:output message="tns:enterStudentMarksBLLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveStudentMarksBLL">
+      <wsdl:input message="tns:SaveStudentMarksBLLSoapIn" />
+      <wsdl:output message="tns:SaveStudentMarksBLLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ViewMarksWebServiceSoap" type="tns:ViewMarksWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMarks4StudentsBLL">
+      <soap:operation soapAction="http://tempuri.org/getMarks4StudentsBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMarks4TeachersBLL">
+      <soap:operation soapAction="http://tempuri.org/getMarks4TeachersBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enterStudentMarksBLL">
+      <soap:operation soapAction="http://tempuri.org/enterStudentMarksBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveStudentMarksBLL">
+      <soap:operation soapAction="http://tempuri.org/SaveStudentMarksBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ViewMarksWebServiceSoap12" type="tns:ViewMarksWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMarks4StudentsBLL">
+      <soap12:operation soapAction="http://tempuri.org/getMarks4StudentsBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMarks4TeachersBLL">
+      <soap12:operation soapAction="http://tempuri.org/getMarks4TeachersBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enterStudentMarksBLL">
+      <soap12:operation soapAction="http://tempuri.org/enterStudentMarksBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveStudentMarksBLL">
+      <soap12:operation soapAction="http://tempuri.org/SaveStudentMarksBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ViewMarksWebService">
+    <wsdl:port name="ViewMarksWebServiceSoap" binding="tns:ViewMarksWebServiceSoap">
+      <soap:address location="http://localhost:30570/PakTurkBLL/ViewMarksWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ViewMarksWebServiceSoap12" binding="tns:ViewMarksWebServiceSoap12">
+      <soap12:address location="http://localhost:30570/PakTurkBLL/ViewMarksWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

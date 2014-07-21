@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65ECA796-B28B-4D6C-83B0-0B7B36B736FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PakTurk_school_system</RootNamespace>
+    <AssemblyName>PakTurk school system</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="App_Code, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PrecompiledWeb\PakTurkBLL\bin\App_Code.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_New_Courses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_New_Courses.Designer.cs">
+      <DependentUpon>Add_New_Courses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admission%281%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admission%281%29.Designer.cs">
+      <DependentUpon>Admission%281%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admission%282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admission%282%29.Designer.cs">
+      <DependentUpon>Admission%282%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_Password.Designer.cs">
+      <DependentUpon>Change_Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check_Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check_Attendence.Designer.cs">
+      <DependentUpon>Check_Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmPrint.designer.cs">
+      <DependentUpon>ConfirmPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="country.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>country.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Create_User_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_User_Login.designer.cs">
+      <DependentUpon>Create_User_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_User.Designer.cs">
+      <DependentUpon>Edit_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enter_Marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enter_Marks.Designer.cs">
+      <DependentUpon>Enter_Marks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Class.Designer.cs">
+      <DependentUpon>Manage_Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Courses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Courses.Designer.cs">
+      <DependentUpon>Manage_Courses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Student.Designer.cs">
+      <DependentUpon>Manage_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Teacher.Designer.cs">
+      <DependentUpon>Manage_Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mark_Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark_Attendence.Designer.cs">
+      <DependentUpon>Mark_Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="School_SystemDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>School_SystemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Teachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teachers.Designer.cs">
+      <DependentUpon>Teachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Attendance.Designer.cs">
+      <DependentUpon>Update_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMarksTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMarksTeacher.Designer.cs">
+      <DependentUpon>ViewMarksTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_New_Courses.resx">
+      <DependentUpon>Add_New_Courses.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admission%281%29.resx">
+      <DependentUpon>Admission%281%29.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admission%282%29.resx">
+      <DependentUpon>Admission%282%29.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_Password.resx">
+      <DependentUpon>Change_Password.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check_Attendence.resx">
+      <DependentUpon>Check_Attendence.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmPrint.resx">
+      <DependentUpon>ConfirmPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_User_Login.resx">
+      <DependentUpon>Create_User_Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_User.resx">
+      <DependentUpon>Edit_User.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enter_Marks.resx">
+      <DependentUpon>Enter_Marks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Class.resx">
+      <DependentUpon>Manage_Class.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Courses.resx">
+      <DependentUpon>Manage_Courses.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Student.resx">
+      <DependentUpon>Manage_Student.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Teacher.resx">
+      <DependentUpon>Manage_Teacher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark_Attendence.resx">
+      <DependentUpon>Mark_Attendence.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers.resx">
+      <DependentUpon>Teachers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Attendance.resx">
+      <DependentUpon>Update_Attendance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMarksTeacher.resx">
+      <DependentUpon>ViewMarksTeacher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_View_Information.resx">
+      <DependentUpon>Student_View_Information.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Marks.resx">
+      <DependentUpon>View_Marks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_View_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_View_Information.Designer.cs">
+      <DependentUpon>Student_View_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Marks.Designer.cs">
+      <DependentUpon>View_Marks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\AdmintTheStudent\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\assignSubjectService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\AttendanceWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ChangePassword\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\creatUser\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\localhost1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ManageclsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ManageCourseWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\searchStudent\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UpdateUserInfo\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UserAuthenticate\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ViewMarksWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\pak turk school.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pak turk school.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1 copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\localhost1\RegistrationService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/AdmitStudent.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\AdmintTheStudent\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/AdmitStudent.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_AdmintTheStudent_AdmitStudent</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/manageClass.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ManageclsService\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/manageClass.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_ManageclsService_manageClass</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/UpadateUser.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\UpdateUserInfo\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/UpadateUser.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_UpdateUserInfo_UpadateUser</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/ViewMarksWebService.asmx%3fop=getMarks4StudentsBLL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ViewMarksWS\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/ViewMarksWebService.asmx%3fop=getMarks4StudentsBLL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_ViewMarksWS_ViewMarksWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/AttendanceWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\AttendanceWS\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/AttendanceWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_AttendanceWS_AttendanceWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/CreateUserWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\creatUser\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/CreateUserWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_creatUser_CreateUserWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/LoginWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\UserAuthenticate\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/LoginWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_UserAuthenticate_LoginWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/ManageCoursesWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ManageCourseWS\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/ManageCoursesWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_ManageCourseWS_ManageCoursesWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/manageTeacher.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\assignSubjectService\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/manageTeacher.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_assignSubjectService_manageTeacher</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/RegistrationService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\localhost1\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/RegistrationService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_localhost1_RegistrationService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/SearchRegisteredStudent.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\searchStudent\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/SearchRegisteredStudent.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_searchStudent_SearchRegisteredStudent</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:30570/PakTurkBLL/ChangePasswordWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ChangePassword\</RelPath>
+      <UpdateFromURL>http://localhost:30570/PakTurkBLL/ChangePasswordWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PakTurk_school_system_ChangePassword_ChangePasswordWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="country.xsc">
+      <DependentUpon>country.xsd</DependentUpon>
+    </None>
+    <None Include="country.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>country.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="country.xss">
+      <DependentUpon>country.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet.xsc">
+      <DependentUpon>School_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet.xss">
+      <DependentUpon>School_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet1.xsc">
+      <DependentUpon>School_SystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet1.xss">
+      <DependentUpon>School_SystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\localhost1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost1\RegistrationService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\AdmintTheStudent\AdmitStudent.wsdl" />
+    <None Include="Web References\searchStudent\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\searchStudent\SearchRegisteredStudent.disco" />
+    <None Include="Web References\searchStudent\SearchRegisteredStudent.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\AdmintTheStudent\AdmitStudent.disco" />
+    <None Include="Web References\AdmintTheStudent\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\creatUser\CreateUserWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\creatUser\CreateUserWebService.disco" />
+    <None Include="Web References\creatUser\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UserAuthenticate\LoginWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\UserAuthenticate\LoginWebService.disco" />
+    <None Include="Web References\UserAuthenticate\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ChangePassword\ChangePasswordWebService.wsdl" />
+    <None Include="Web References\ManageCourseWS\ManageCoursesWebService.disco" />
+    <None Include="Web References\ManageCourseWS\ManageCoursesWebService.wsdl" />
+    <None Include="Web References\ManageCourseWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="School_SystemDataSet2.xsc">
+      <DependentUpon>School_SystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet2.xss">
+      <DependentUpon>School_SystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet3.xsc">
+      <DependentUpon>School_SystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet3.xss">
+      <DependentUpon>School_SystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet4.xsc">
+      <DependentUpon>School_SystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet4.xss">
+      <DependentUpon>School_SystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\assignSubjectService\manageTeacher.wsdl" />
+    <None Include="Web References\ChangePassword\ChangePasswordWebService.disco" />
+    <None Include="Web References\ChangePassword\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\assignSubjectService\manageTeacher.disco" />
+    <None Include="Web References\assignSubjectService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\AttendanceWS\AttendanceWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\AttendanceWS\AttendanceWebService.disco" />
+    <None Include="Web References\AttendanceWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ViewMarksWS\ViewMarksWebService.wsdl" />
+    <None Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ViewMarksWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ViewMarksWS\ViewMarksWebService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ManageclsService\manageClass.disco" />
+    <None Include="Web References\ManageclsService\manageClass.wsdl" />
+    <None Include="Web References\ManageclsService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UpdateUserInfo\UpadateUser.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="School_SystemDataSet5.xsc">
+      <DependentUpon>School_SystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet5.xss">
+      <DependentUpon>School_SystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet6.xsc">
+      <DependentUpon>School_SystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet6.xss">
+      <DependentUpon>School_SystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet7.xsc">
+      <DependentUpon>School_SystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="School_SystemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>School_SystemDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="School_SystemDataSet7.xss">
+      <DependentUpon>School_SystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\UpdateUserInfo\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UpdateUserInfo\UpadateUser.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

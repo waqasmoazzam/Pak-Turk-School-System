@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="assignSubject">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="teacher" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClsName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subjectType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classsection" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="assignSubjectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="assignSubjectResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="makeClassIncharge">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cls" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="inch" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="makeClassInchargeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="makeClassInchargeResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTeacherDetailsBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTeacherDetailsBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTeacherDetailsBLLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="assignSubjectSoapIn">
+    <wsdl:part name="parameters" element="tns:assignSubject" />
+  </wsdl:message>
+  <wsdl:message name="assignSubjectSoapOut">
+    <wsdl:part name="parameters" element="tns:assignSubjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="makeClassInchargeSoapIn">
+    <wsdl:part name="parameters" element="tns:makeClassIncharge" />
+  </wsdl:message>
+  <wsdl:message name="makeClassInchargeSoapOut">
+    <wsdl:part name="parameters" element="tns:makeClassInchargeResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTeacherDetailsBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:getTeacherDetailsBLL" />
+  </wsdl:message>
+  <wsdl:message name="getTeacherDetailsBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:getTeacherDetailsBLLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="manageTeacherSoap">
+    <wsdl:operation name="assignSubject">
+      <wsdl:input message="tns:assignSubjectSoapIn" />
+      <wsdl:output message="tns:assignSubjectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="makeClassIncharge">
+      <wsdl:input message="tns:makeClassInchargeSoapIn" />
+      <wsdl:output message="tns:makeClassInchargeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTeacherDetailsBLL">
+      <wsdl:input message="tns:getTeacherDetailsBLLSoapIn" />
+      <wsdl:output message="tns:getTeacherDetailsBLLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="manageTeacherSoap" type="tns:manageTeacherSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="assignSubject">
+      <soap:operation soapAction="http://tempuri.org/assignSubject" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="makeClassIncharge">
+      <soap:operation soapAction="http://tempuri.org/makeClassIncharge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTeacherDetailsBLL">
+      <soap:operation soapAction="http://tempuri.org/getTeacherDetailsBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="manageTeacherSoap12" type="tns:manageTeacherSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="assignSubject">
+      <soap12:operation soapAction="http://tempuri.org/assignSubject" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="makeClassIncharge">
+      <soap12:operation soapAction="http://tempuri.org/makeClassIncharge" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTeacherDetailsBLL">
+      <soap12:operation soapAction="http://tempuri.org/getTeacherDetailsBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="manageTeacher">
+    <wsdl:port name="manageTeacherSoap" binding="tns:manageTeacherSoap">
+      <soap:address location="http://localhost:30570/PakTurkBLL/manageTeacher.asmx" />
+    </wsdl:port>
+    <wsdl:port name="manageTeacherSoap12" binding="tns:manageTeacherSoap12">
+      <soap12:address location="http://localhost:30570/PakTurkBLL/manageTeacher.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

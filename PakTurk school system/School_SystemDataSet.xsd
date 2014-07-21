@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="School_SystemDataSet" targetNamespace="http://tempuri.org/School_SystemDataSet.xsd" xmlns:mstns="http://tempuri.org/School_SystemDataSet.xsd" xmlns="http://tempuri.org/School_SystemDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="School_SystemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="School_SystemConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PakTurk_school_system.Properties.Settings.GlobalReference.Default.School_SystemConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CityTableAdapter" GeneratorDataComponentClassName="CityTableAdapter" Name="City" UserDataComponentName="CityTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="School_SystemConnectionString (Settings)" DbObjectName="School_System.dbo.City" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CityName FROM dbo.City</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CityName" DataSetColumn="CityName" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="School_SystemConnectionString (Settings)" DbObjectName="School_System.dbo.City" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="citybound" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="citybound" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="citybound">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT     ci.CityName
+FROM         City AS ci INNER JOIN
+                      Country AS C ON ci.CountryId = C.CountryId
+ORDER BY ci.CityName</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="School_SystemDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="School_SystemDataSet" msprop:Generator_DataSetName="School_SystemDataSet" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="City" msprop:Generator_UserTableName="City" msprop:Generator_RowDeletedName="CityRowDeleted" msprop:Generator_RowChangedName="CityRowChanged" msprop:Generator_RowClassName="CityRow" msprop:Generator_RowChangingName="CityRowChanging" msprop:Generator_RowEvArgName="CityRowChangeEvent" msprop:Generator_RowEvHandlerName="CityRowChangeEventHandler" msprop:Generator_TableClassName="CityDataTable" msprop:Generator_TableVarName="tableCity" msprop:Generator_RowDeletingName="CityRowDeleting" msprop:Generator_TablePropName="City">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CityName" msprop:Generator_UserColumnName="CityName" msprop:Generator_ColumnVarNameInTable="columnCityName" msprop:Generator_ColumnPropNameInRow="CityName" msprop:Generator_ColumnPropNameInTable="CityNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

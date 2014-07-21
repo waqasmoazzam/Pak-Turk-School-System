@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="displayStudentsBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="displayStudentsBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="displayStudentsBLLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="display4UpdateStudentsBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rollNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="display4UpdateStudentsBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="display4UpdateStudentsBLLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="markAttendanceBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rollNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isPresent" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="flag" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="markAttendanceBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="markAttendanceBLLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getStudentDetailsBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rollNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getStudentDetailsBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rollNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAttendanceBLL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="rollNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAttendanceBLLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAttendanceBLLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="displayStudentsBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:displayStudentsBLL" />
+  </wsdl:message>
+  <wsdl:message name="displayStudentsBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:displayStudentsBLLResponse" />
+  </wsdl:message>
+  <wsdl:message name="display4UpdateStudentsBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:display4UpdateStudentsBLL" />
+  </wsdl:message>
+  <wsdl:message name="display4UpdateStudentsBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:display4UpdateStudentsBLLResponse" />
+  </wsdl:message>
+  <wsdl:message name="markAttendanceBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:markAttendanceBLL" />
+  </wsdl:message>
+  <wsdl:message name="markAttendanceBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:markAttendanceBLLResponse" />
+  </wsdl:message>
+  <wsdl:message name="getStudentDetailsBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:getStudentDetailsBLL" />
+  </wsdl:message>
+  <wsdl:message name="getStudentDetailsBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:getStudentDetailsBLLResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAttendanceBLLSoapIn">
+    <wsdl:part name="parameters" element="tns:getAttendanceBLL" />
+  </wsdl:message>
+  <wsdl:message name="getAttendanceBLLSoapOut">
+    <wsdl:part name="parameters" element="tns:getAttendanceBLLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AttendanceWebServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="displayStudentsBLL">
+      <wsdl:input message="tns:displayStudentsBLLSoapIn" />
+      <wsdl:output message="tns:displayStudentsBLLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="display4UpdateStudentsBLL">
+      <wsdl:input message="tns:display4UpdateStudentsBLLSoapIn" />
+      <wsdl:output message="tns:display4UpdateStudentsBLLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="markAttendanceBLL">
+      <wsdl:input message="tns:markAttendanceBLLSoapIn" />
+      <wsdl:output message="tns:markAttendanceBLLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDetailsBLL">
+      <wsdl:input message="tns:getStudentDetailsBLLSoapIn" />
+      <wsdl:output message="tns:getStudentDetailsBLLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAttendanceBLL">
+      <wsdl:input message="tns:getAttendanceBLLSoapIn" />
+      <wsdl:output message="tns:getAttendanceBLLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AttendanceWebServiceSoap" type="tns:AttendanceWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="displayStudentsBLL">
+      <soap:operation soapAction="http://tempuri.org/displayStudentsBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="display4UpdateStudentsBLL">
+      <soap:operation soapAction="http://tempuri.org/display4UpdateStudentsBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="markAttendanceBLL">
+      <soap:operation soapAction="http://tempuri.org/markAttendanceBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDetailsBLL">
+      <soap:operation soapAction="http://tempuri.org/getStudentDetailsBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAttendanceBLL">
+      <soap:operation soapAction="http://tempuri.org/getAttendanceBLL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AttendanceWebServiceSoap12" type="tns:AttendanceWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="displayStudentsBLL">
+      <soap12:operation soapAction="http://tempuri.org/displayStudentsBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="display4UpdateStudentsBLL">
+      <soap12:operation soapAction="http://tempuri.org/display4UpdateStudentsBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="markAttendanceBLL">
+      <soap12:operation soapAction="http://tempuri.org/markAttendanceBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentDetailsBLL">
+      <soap12:operation soapAction="http://tempuri.org/getStudentDetailsBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAttendanceBLL">
+      <soap12:operation soapAction="http://tempuri.org/getAttendanceBLL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AttendanceWebService">
+    <wsdl:port name="AttendanceWebServiceSoap" binding="tns:AttendanceWebServiceSoap">
+      <soap:address location="http://localhost:30570/PakTurkBLL/AttendanceWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AttendanceWebServiceSoap12" binding="tns:AttendanceWebServiceSoap12">
+      <soap12:address location="http://localhost:30570/PakTurkBLL/AttendanceWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

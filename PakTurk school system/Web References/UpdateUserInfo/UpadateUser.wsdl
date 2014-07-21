@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getUserNames">
+        <s:complexType />
+      </s:element>
+      <s:element name="getUserNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserNamesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usrN" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="editUserInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DS">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="usrN" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="editUserInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="editUserInfoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getUserNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserNames" />
+  </wsdl:message>
+  <wsdl:message name="getUserNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserDetail" />
+  </wsdl:message>
+  <wsdl:message name="getUserDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="editUserInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:editUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="editUserInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:editUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UpadateUserSoap">
+    <wsdl:operation name="getUserNames">
+      <wsdl:input message="tns:getUserNamesSoapIn" />
+      <wsdl:output message="tns:getUserNamesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserDetail">
+      <wsdl:input message="tns:getUserDetailSoapIn" />
+      <wsdl:output message="tns:getUserDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="editUserInfo">
+      <wsdl:input message="tns:editUserInfoSoapIn" />
+      <wsdl:output message="tns:editUserInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UpadateUserSoap" type="tns:UpadateUserSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getUserNames">
+      <soap:operation soapAction="http://tempuri.org/getUserNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserDetail">
+      <soap:operation soapAction="http://tempuri.org/getUserDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editUserInfo">
+      <soap:operation soapAction="http://tempuri.org/editUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UpadateUserSoap12" type="tns:UpadateUserSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getUserNames">
+      <soap12:operation soapAction="http://tempuri.org/getUserNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserDetail">
+      <soap12:operation soapAction="http://tempuri.org/getUserDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editUserInfo">
+      <soap12:operation soapAction="http://tempuri.org/editUserInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UpadateUser">
+    <wsdl:port name="UpadateUserSoap" binding="tns:UpadateUserSoap">
+      <soap:address location="http://localhost:30570/PakTurkBLL/UpadateUser.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UpadateUserSoap12" binding="tns:UpadateUserSoap12">
+      <soap12:address location="http://localhost:30570/PakTurkBLL/UpadateUser.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

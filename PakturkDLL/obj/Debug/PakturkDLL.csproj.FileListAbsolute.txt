@@ -1,0 +1,25 @@
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakturkDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.dll
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.pdb
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.dll
+D:\7th smester\7th smster\final project\Prototype 1\Prototype 1\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakturkDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.2\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakturkDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.3\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\bin\Debug\PakturkDLL.pdb
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.dll
+D:\Waqas Assignments\8th Semester\Final Year Project\Final Year Project\Project 2\PakTurk school system v1.4\PakTurk school system\PakturkDLL\obj\Debug\PakturkDLL.pdb
